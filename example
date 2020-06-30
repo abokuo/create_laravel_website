@@ -1,6 +1,6 @@
 dirlist_enable=YES
 download_enable=YES
-local_root=/var/www/html/example.com
+local_root=/var/www/example.com
 write_enable=YES
 
 idle_session_timeout=600
