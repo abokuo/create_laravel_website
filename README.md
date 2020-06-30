@@ -8,8 +8,8 @@
 6. 設定 VSFTPd 虛擬使用者及登入設定
 7. 建立 AWStats 設定檔案。
 
-本腳本運作前請確認 Composer、Nginx、VSFTPd 及 AWStats 均已安裝、運作。
-第 4、6、7 步驟透過複製範例檔案後置換關鍵部分完成，其中：
-example.com.conf：複製至 /etc/nginx/
-example：複製至 /etc/vsftpd/vsftpd_user_conf/
-awstats.example.com.conf：複製至 /etc/awstats/
+本腳本運作前請確認 Composer、Nginx、VSFTPd 及 AWStats 均已安裝、運作。 
+第 4、6、7 步驟透過複製範例檔案後置換關鍵部分完成，其中： 
+* example.com.conf：複製至 /etc/nginx/ 
+* example：複製至 /etc/vsftpd/vsftpd_user_conf/ 
+* awstats.example.com.conf：複製至 /etc/awstats/ 
