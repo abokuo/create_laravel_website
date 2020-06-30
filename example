@@ -1,0 +1,15 @@
+dirlist_enable=YES
+download_enable=YES
+local_root=/var/www/html/example.com
+write_enable=YES
+
+idle_session_timeout=600
+data_connection_timeout=1200
+#設定用戶端連接數
+max_clients=10
+#設定單個用戶最大連接數
+max_per_ip=5
+#對大傳輸率
+local_max_rate=1000000
+pam_service_name=vsftpd
+chroot_local_user=YES
